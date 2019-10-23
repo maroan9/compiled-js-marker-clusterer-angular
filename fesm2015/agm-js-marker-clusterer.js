@@ -2,7 +2,7 @@ import { __decorate, __metadata } from 'tslib';
 import { Injectable, NgZone, EventEmitter, Input, Output, Directive, NgModule } from '@angular/core';
 import { MarkerManager, GoogleMapsAPIWrapper, InfoWindowManager, AgmCoreModule } from '@agm/core';
 import { Observable } from 'rxjs';
-import 'js-marker-clusterer';
+import 'js-marker-clusterer-universal';
 
 let ClusterManager = class ClusterManager extends MarkerManager {
     constructor(_mapsWrapper, _zone) {

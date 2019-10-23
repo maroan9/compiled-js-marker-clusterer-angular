@@ -1,6 +1,6 @@
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@agm/core'), require('rxjs'), require('js-marker-clusterer')) :
-    typeof define === 'function' && define.amd ? define('@agm/js-marker-clusterer', ['exports', '@angular/core', '@agm/core', 'rxjs', 'js-marker-clusterer'], factory) :
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('@agm/core'), require('rxjs'), require('js-marker-clusterer-universal')) :
+    typeof define === 'function' && define.amd ? define('@agm/js-marker-clusterer', ['exports', '@angular/core', '@agm/core', 'rxjs', 'js-marker-clusterer-universal'], factory) :
     (global = global || self, factory((global.ngmaps = global.ngmaps || {}, global.ngmaps.jsMarkerClusterer = {}), global.ng.core, global.ngmaps.core, global.rxjs));
 }(this, function (exports, core, core$1, rxjs) { 'use strict';
 
